@@ -166,5 +166,7 @@ function showAlert(str) {
     text: "You clicked the button!",
     icon: "success",
   });
-  location.reload();
+  setTimeout(() => {
+    location.reload();
+  }, 2000);
 }
